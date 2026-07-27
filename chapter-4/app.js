@@ -1,0 +1,1 @@
+// Q:1 declare 3 variables in one statement.
