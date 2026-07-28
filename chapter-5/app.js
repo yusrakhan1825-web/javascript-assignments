@@ -62,7 +62,7 @@ document.write("<br>Total cost to buy 5 tickets to a movie is " + totalCost + "P
 
 // Q:5 o display multiplication table of any number in your browser.
 
-document.write("<h1>Table of 4");
+document.write("<h1>Table of 4</h1>");
 document.write("<br>4×1=4");
 document.write("<br>4×2=8");
 document.write("<br>4×3=12");
