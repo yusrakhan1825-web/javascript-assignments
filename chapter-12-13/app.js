@@ -2,6 +2,20 @@
 
 var letter = prompt("Enter a character (number, uppercase, or lowercase letter):");
 
+if (letter >= "0" && letter <= 9) {
+        console.log("its a number.");
+    } 
+    else if (letter >= "A" && letter <= "Z") {
+        console.log("its s uppercase letter.");
+    }
+     else if (letter >= "a" && letter <= "z") {
+        console.log("is a lowercase letter.");
+    }
+     else {
+        console.log(" is a special character or symbol.");
+    }
+    
+
 
 // Q-2
 
@@ -31,6 +45,14 @@ if (number > 0) {
 }
 
 // Q-4
+
+var vowels = prompt("write a character to find out its vowel or not!");
+if (vowels == "a" || "e" || "i" || "o" || "u"){
+    alert("it is an vowel.")
+} else {
+    alert("it is not vowel.")
+}
+
 
 // Q-5
 
